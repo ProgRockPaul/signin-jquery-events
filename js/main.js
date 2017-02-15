@@ -12,4 +12,9 @@ $(function(){
   $("button.submit").click(function() {
     $("input").addClass("error");
   });
+
+  $("input").click(function() {
+    $("input").removeClass("error");
+  });
+
 });
