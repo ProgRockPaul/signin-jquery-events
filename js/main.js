@@ -8,4 +8,8 @@ $(function(){
   $("button.close").click(function() {
     $("div.modal").fadeOut("div.modal");
   });
+
+  $("button.submit").click(function() {
+    $("input").addClass("error");
+  });
 });
