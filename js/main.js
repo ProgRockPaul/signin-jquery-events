@@ -2,7 +2,6 @@ $(function(){
 
   $(".signin").click(function() {
     $("div.modal").fadeIn("div.modal");
-
   });
 
   $("button.close").click(function() {
@@ -14,7 +13,10 @@ $(function(){
   });
 
   $("input").click(function() {
-    $("input").removeClass("error");
+    $(this).removeClass("error");
+
   });
 
 });
+
+//[type = "text"]
